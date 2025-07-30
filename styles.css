@@ -1,2 +1,8 @@
-
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;              /* Allows items to move to the next row when needed */
+  justify-content: center;      /* Center items horizontally within each row */
+  align-items: center;          /* Center items vertically in the container */
+  height: 200px;                /* Or your container's set height */
+  width: 600px;                 /* Adjust this as needed for your demo */
+}
